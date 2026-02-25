@@ -9,7 +9,7 @@ namespace softdeployPrac1.Controllers
         [HttpGet]
         public IActionResult GetMessage()
         {
-            return Ok("Nuevo mensaje desde la corrección");
+            return Ok("Nuevo mensaje para simular error 2");
         }
     }
 }
